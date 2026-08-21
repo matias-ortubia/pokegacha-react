@@ -1,0 +1,12 @@
+.pkmnListContainer {
+    margin-top: 2rem;
+    display: grid;
+    gap: 5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .pkmnListContainer {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 66vw;
+    }
+}

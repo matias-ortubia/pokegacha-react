@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #000;
+    width: 100%;
+}
+
+.navbarButton {
+    width: 15rem;
+    font-size: 2rem;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.active {
+    background-color: #30a7d7;
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbarButton {
+        font-size: 2rem;
+        width: 20rem;
+    }
+    
+    .navbarButton:hover {
+        background-color: #45d4e7;
+    }
+}

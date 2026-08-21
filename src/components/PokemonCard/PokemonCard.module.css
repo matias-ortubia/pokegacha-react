@@ -1,0 +1,95 @@
+.pkmnContainer {
+    border: 2px solid #000;
+    border-radius: 3px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 0 3rem 1.2rem 3rem;
+    width: min(90vw, 40rem);
+    max-height:70vh;
+}
+
+.pkmnName {
+    font-size: 4rem;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    margin: 0;
+    padding-top: 0.5rem;
+    text-transform: capitalize;
+}
+
+.shinyName {
+    color: #efbf04;
+}
+
+.pkmnImg {
+    width: 100%;
+    min-height: 45%;
+    border: 1px solid #000;
+    background-color: #fff;
+    object-fit: cover;
+}
+
+.abilityContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 4px;
+    background-color: #000;
+}
+
+.abilityName {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.movesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+    padding: 0;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.pkmnMove {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .pkmnContainer {
+        width: fit-content;
+    }
+
+    .pkmnName {
+        font-size: 1.8rem;
+    }
+
+    .pkmnImg {
+        height: 15rem;
+    }
+
+    .abilityContainer {
+        margin-top: 1rem;
+    }
+
+    .abilityName {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .movesContainer {
+        margin-top: 1rem;
+    }
+
+    .pkmnMove {
+        font-size: 1.8rem;
+    }
+}

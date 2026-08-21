@@ -1,0 +1,14 @@
+.listControlsContainer {
+    margin-top: 0.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sortingSelector {
+    font-size: 2rem;
+}
+
+.sortingOption {
+    font-size: 1.5rem;
+}
