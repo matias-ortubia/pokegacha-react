@@ -5,8 +5,8 @@
     flex-flow: column nowrap;
     align-items: center;
     padding: 0 3rem 1.2rem 3rem;
-    width: min(90vw, 40rem);
-    max-height:70vh;
+    width: min(35rem, 40rem);
+    max-height: 50rem;
 }
 
 .pkmnName {
@@ -24,7 +24,7 @@
 
 .pkmnImg {
     width: 100%;
-    height: 45%;
+    height: 225px;
     border: 1px solid #000;
     background-color: #fff;
     object-fit: cover;
