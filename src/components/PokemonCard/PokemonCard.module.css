@@ -24,7 +24,7 @@
 
 .pkmnImg {
     width: 100%;
-    min-height: 45%;
+    height: 45%;
     border: 1px solid #000;
     background-color: #fff;
     object-fit: cover;
